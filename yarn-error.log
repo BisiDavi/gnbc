@@ -1,0 +1,40 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Program Files (x86)\Yarn\bin\yarn.js add tailwindcss express
+
+PATH: 
+  C:\Python38\Scripts\;C:\Python38\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\dotnet\;C:\Program Files\Git\cmd;C:\Program Files\nodejs\;C:\Program Files (x86)\Yarn\bin\;C:\ProgramData\chocolatey\bin;C:\xampp\php;C:\ProgramData\ComposerSetup\bin;C:\Program Files\MongoDB\Server\4.4\bin;C:\Program Files\Amazon\AWSCLI\bin\;C:\Program Files\PostgreSQL\13\bin;C:\Program Files\PostgreSQL\13\data;C:\Users\DOVIE\AppData\Roaming\Python\Python38\Scripts;C:\Go\bin;C:\Program Files\Docker\Docker\resources\bin;C:\ProgramData\DockerDesktop\version-bin;C:\Users\DOVIE\AppData\Local\Microsoft\WindowsApps;C:\Users\DOVIE\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\DOVIE\.dotnet\tools;C:\Users\DOVIE\AppData\Roaming\npm;C:\Users\DOVIE\AppData\Local\Yarn\bin;C:\Users\DOVIE\AppData\Roaming\Composer\vendor\bin;C:\Users\DOVIE\vendor\autoload.php;C:\Program Files\heroku\bin;C:\Program Files\MongoDB\Server\4.4\bin;C:\Users\DOVIE\AppData\Roaming\Python\Python38\Scripts;C:\Users\DOVIE\go\bin
+
+Yarn version: 
+  1.22.5
+
+Node version: 
+  12.18.3
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: https://registry.yarnpkg.com/tailwindcss/-/tailwindcss-2.0.3.tgz: ESOCKETTIMEDOUT
+      at ClientRequest.<anonymous> (C:\Program Files (x86)\Yarn\lib\cli.js:141376:19)
+      at Object.onceWrapper (events.js:421:28)
+      at ClientRequest.emit (events.js:315:20)
+      at TLSSocket.emitRequestTimeout (_http_client.js:709:9)
+      at Object.onceWrapper (events.js:421:28)
+      at TLSSocket.emit (events.js:327:22)
+      at TLSSocket.Socket._onTimeout (net.js:482:8)
+      at listOnTimeout (internal/timers.js:549:17)
+      at processTimers (internal/timers.js:492:7)
+
+npm manifest: 
+  {
+    "name": "gnbc",
+    "version": "1.0.0",
+    "main": "index.js",
+    "license": "MIT"
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
