@@ -5,3 +5,63 @@ li {
 nav a {
   font-size: 13px;
 }
+
+nav li a:hover {
+    color: purple;
+    font-weight: 600;
+}
+
+/* search input */
+.input-group {
+  width: 250px;
+}
+input.form-control:focus {
+  box-shadow: none;
+}
+input.form-control {
+  border-right: none;
+}
+
+#basic-addon2 {
+  background: transparent;
+  border-left: none;
+  cursor: pointer;
+}
+
+#basic-addon2:hover {
+  background: purple;
+  color: white;
+}
+
+/* video player */
+.video-overlay button {
+    width: 200px;
+    height: 50px;
+    border-radius: 0px;
+}
+
+.video-overlay h1 {
+    font-family: "Roboto",Arial,"Helvetica Neue",Helvetica,sans-serif;
+    font-weight: 100;
+    font-style: normal;
+    font-size: 6.5em;
+    margin-bottom:10px;
+    line-height: 1em;
+    text-transform: lowercase;
+    letter-spacing: 0.05em;
+}
+
+.video-loop {
+    height: 100vh;
+    width: 100%;
+}
+
+.video-overlay {
+    top: 200px;
+    left: 70px;
+    width: 50%;
+}
+
+.button-group {
+    width: 450px;
+}
